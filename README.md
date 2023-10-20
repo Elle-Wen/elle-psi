@@ -1,4 +1,5 @@
 # Getting Started
+- first follow install instructions on https://github.com/emp-toolkit/emp-sh2pc 
 
 - the `test` directory should hold source code for files you want to run
 - if you want to make a new file, go into `test/CMakeLists.txt` and append `add_test_case_with_run( <name of file> )`
