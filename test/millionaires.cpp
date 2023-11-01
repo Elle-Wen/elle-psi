@@ -47,8 +47,8 @@ int main(int argc, char** argv) {
 	}
 
 	// initialize emp::NetIO class, handles communication between the two parties
-	NetIO * io = new NetIO(party==ALICE ? nullptr : "127.0.0.1", port);
 
+	NetIO * io = new NetIO(party==ALICE ? nullptr : "127.0.0.1", port);
 	setup_semi_honest(io, party); // initialize circuit
 	// tests go here 
 	//test_millionaire(num);

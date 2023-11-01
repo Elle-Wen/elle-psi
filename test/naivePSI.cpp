@@ -18,7 +18,7 @@ void naive(vector<int> &elements){
         }
     }
     for (size_t i = 0; i < intersection.size(); ++i){
-        cout << "Encoded intersection\t" << intersection[i].reveal<bool>() << endl; 
+        cout << "Encoded intersection for\t" << intersection[i].reveal<bool>() << endl; 
     }// iterature through vector + reveal for each bit 
     }
 
@@ -33,9 +33,7 @@ int main(int argc, char** argv) {
     for (int i = 3; i < argc; ++i) {
         elements.push_back(atoi(argv[i]));
         } 
-    cout << "o"<< endl;
     NetIO * io = new NetIO(party==ALICE ? nullptr : "127.0.0.1", port);
-    cout << "hi"<< endl;
     setup_semi_honest(io, party); // initialize circuit
     naive(elements);
     finalize_semi_honest();
