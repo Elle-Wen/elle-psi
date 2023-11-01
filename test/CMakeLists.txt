@@ -20,3 +20,4 @@ endmacro()
 #Test Cases
 add_test_case_with_run(hello)
 add_test_case_with_run(millionaires)
+add_test_case_with_run(naivePSI)

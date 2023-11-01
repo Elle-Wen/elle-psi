@@ -1,5 +1,5 @@
 #include <emp-sh2pc/emp-sh2pc.h>
-
+// compile with cmake . && make
 using namespace emp;
 using namespace std;
 
@@ -22,7 +22,9 @@ void test_millionaire(int number){
 void test_sum(int number) {
 	// see if you can pattern match to write a circuit that sums two Integers from alice and bob, and then reveals the sum
 	// note that the + operator is defined on emp::Integers
-	// YOUR CODE HERE
+	Integer a(32, number, ALICE);
+	Integer b(32, number, BOB);
+	cout << "Sum of Alice and Bob\t" << (a+b).reveal<int>() << endl;
 }
 
 
@@ -48,10 +50,10 @@ int main(int argc, char** argv) {
 	NetIO * io = new NetIO(party==ALICE ? nullptr : "127.0.0.1", port);
 
 	setup_semi_honest(io, party); // initialize circuit
+	// tests go here 
+	//test_millionaire(num);
 
-	test_millionaire(num);
-
-	//test_sum(num);
+	test_sum(num);
 
 //	cout << CircuitExecution::circ_exec->num_and()<<endl; // gives the number of AND gates in the circuit
 
