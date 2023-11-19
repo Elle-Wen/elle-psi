@@ -21,3 +21,17 @@
     * "S": Given size of the set, randomly generate elements and writes the number of AND gates (as a proxy of the running time) to a csv file
 - performance benchmark
   ![image](https://github.com/Elle-Wen/elle-psi/assets/70612012/a6d10bed-7dc1-4176-8a4b-795d6368deda)
+
+  ## fuzzyPSI.cpp
+
+  - This is a naive implementation of fuzzy PSI algorithm using emp toolkit
+  - 1D version is finished. The goal is to increase it to 3D for benchmark performance comparison
+  - what is fuzzy PSI?
+        Firstly introduced by Freedman et al. Here, Alice has a set of points A and Bob has a set of points B and they would like to learn the pairs (a, b) ∈ A × B satisfying
+        d(a, b) ≤ δ, where d is a distance metric and δ is a public threshold.
+  - higher-level description of the naive method:
+      * check the distance for all paris of elements (a,b) s.t. $a \in$ Alice and $b \in$ Bob
+
+
+
+  
