@@ -7,3 +7,5 @@
 - use the command `cmake . && make` from the project directory to compile
 - after that, try these two commands: `./bin/test_millionaires 1 12345 20 & ./bin/test_millionaires 2 12345 15` and `./bin/test_millionaires 1 12345 75 & ./bin/test_millionaires 2 12345 34`
 - go check out `test/millionaires.cpp` and see if you can understand it. Try some other inputs as well.
+
+# naivePSI.cpp 
