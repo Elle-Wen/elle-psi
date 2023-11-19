@@ -21,8 +21,8 @@
     * "S": Given size of the set, randomly generate elements and writes the number of AND gates (as a proxy of the running time) to a csv file
 - performance benchmark
   ![image](https://github.com/Elle-Wen/elle-psi/assets/70612012/a6d10bed-7dc1-4176-8a4b-795d6368deda)
-
-  ## fuzzyPSI.cpp
+  
+## fuzzyPSI.cpp
 
   - This is a naive implementation of fuzzy PSI algorithm using emp toolkit
   - 1D version is finished. The goal is to increase it to 3D for benchmark performance comparison
