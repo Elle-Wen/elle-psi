@@ -30,7 +30,7 @@
       * Firstly introduced by Freedman et al. Here, Alice has a set of points A and Bob has a set of points B and they would like to learn the pairs (a, b) ∈ A × B satisfying
         d(a, b) ≤ δ, where d is a distance metric and δ is a public threshold.
   - higher-level description of the naive method:
-      * check the distance for all paris of elements (a,b) s.t. $a \in$ Alice and $b \in$ Bob
+      * check the distance for all paris of elements $(a,b)$ s.t. $a \in$ Alice and $b \in$ Bob
 
 
 
