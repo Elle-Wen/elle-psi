@@ -1,4 +1,4 @@
-Link to my thesis journal[https://docs.google.com/document/d/1e8S0pBBswBG8Ee6IgfIMkkkiYOZZW8B9SJ9Wm1tJbRs/edit?usp=sharing](url)
+My thesis journal: [https://docs.google.com/document/d/1e8S0pBBswBG8Ee6IgfIMkkkiYOZZW8B9SJ9Wm1tJbRs/edit?usp=sharing](url)
 ## Getting Started
 - first follow install instructions on https://github.com/emp-toolkit/emp-sh2pc 
 
